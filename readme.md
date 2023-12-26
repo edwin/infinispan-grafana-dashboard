@@ -9,7 +9,7 @@ Infinispan 14, or Red Hat DataGrid 8.4, has an endpoint which displaying statist
 ![images2](images/grafana-ispn2.png)
 
 ## Troubleshooting
-It is necessary to replace `prometheus datasource` uid which is hardcoded in the json file, with your own `datasource` uid in order to make this Dashboard works. 
+It is necessary to replace all occurances of `prometheus datasource` uid which is hardcoded in the json file, with your own `datasource` uid in order to make this Dashboard works. 
 ```json
 "datasource": {
         "type": "prometheus",
