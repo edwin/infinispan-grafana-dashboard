@@ -2,3 +2,8 @@
 
 ## How To
 Infinispan 14, or Red Hat DataGrid 8.4, has an endpoint which displaying statistics (`http://ip:11222/metrics`). We can consume it by using `Prometheus` and visualize it by using `Grafana`.
+
+## Screenshot
+![images1](images/grafana-ispn1.png)
+
+![images2](images/grafana-ispn2.png)
